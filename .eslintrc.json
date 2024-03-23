@@ -15,6 +15,12 @@
   "rules": {
     "@typescript-eslint/no-misused-promises": 0,
     "@typescript-eslint/strict-boolean-expressions": 0,
+    "@typescript-eslint/naming-convention": [
+        "error",
+        {
+            "selector": "variableLike", "format": ["snake_case", "camelCase"]
+        }
+    ],
     "prettier/prettier": [
       1,
       {
